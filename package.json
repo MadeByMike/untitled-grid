@@ -1,0 +1,9 @@
+{
+  "name": "untitled-monorepo",
+  "private": true,
+  "workspaces": [
+    "website",
+    "untitled-grid"
+  ],
+  "scripts": {}
+}
