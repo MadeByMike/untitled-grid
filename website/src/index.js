@@ -70,8 +70,8 @@ ReactDOM.render(
           </h1>
           <p css={{ marginLeft: 8, marginTop: 5 }}>
             Built for React with Emotion.
-            <br /> Untitled grid can be a standard 12 column grid system or a
-            versatile grid utility.
+            <br /> Untitled grid is a standard 12 column responsive grid system
+            or a versatile grid utility that can be any shape or size.
           </p>
         </Col>
       </Row>
