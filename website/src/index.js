@@ -62,15 +62,16 @@ ReactDOM.render(
   <div css={page}>
     <Global styles={globalStyles} />
     <section css={section}>
-      <Row>
+      <Row xs={{ align: "center" }}>
         <img src="/logo.svg" css={{ margin: 10 }} />
         <Col>
-          <h1 css={{ fontSize: "3em", marginBottom: 0, marginTop: "0.5em" }}>
+          <h1 css={{ fontSize: "3em", marginBottom: 0, margin: 0 }}>
             Untitled Grid
           </h1>
           <p css={{ marginLeft: 8, marginTop: 5 }}>
-            Untitled grid can be a standard 12 column grid system or a versatile
-            grid utility.
+            Built for React with Emotion.
+            <br /> Untitled grid can be a standard 12 column grid system or a
+            versatile grid utility.
           </p>
         </Col>
       </Row>
