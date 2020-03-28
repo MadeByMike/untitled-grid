@@ -38,7 +38,9 @@ const globalStyles = {
     background: "#276ebd",
     color: "#fff",
     fontFamily: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
-    fontSize: "1.2em",
+    "@media (min-width: 800px)": {
+      fontSize: "1.2em"
+    },
     lineHeight: "1.5",
     marginTop: 20,
     padding: 5
@@ -48,7 +50,7 @@ const globalStyles = {
     fontSize: "1em",
     border: "solid rgba(255,255,255,0.4) 1px",
     borderRadius: 2,
-    padding: 5
+    padding: ".2em"
   },
   "pre code": { fontSize: ".9em", border: "none", borderRadius: 0 },
   a: { color: "white" }
@@ -62,8 +64,15 @@ ReactDOM.render(
   <div css={page}>
     <Global styles={globalStyles} />
     <section css={section}>
-      <Row xs={{ align: "center" }}>
-        <img src="/logo.svg" css={{ margin: 10 }} />
+      <Row sm={{ align: "center" }}>
+        <img
+          src="/logo.svg"
+          css={{
+            width: 100,
+            "@media (min-width:600px)": { width: "auto" },
+            margin: 10
+          }}
+        />
         <Col>
           <h1 css={{ fontSize: "3em", marginBottom: 0, margin: 0 }}>
             Untitled Grid
