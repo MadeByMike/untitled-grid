@@ -6,6 +6,7 @@
   "main": "dist/untitled-grid.js",
   "module": "dist/untitled-grid.module.js",
   "unpkg": "dist/untitled-grid.umd.js",
+  "repository": "https://github.com/MadeByMike/untitled-grid/",
   "scripts": {
     "build": "microbundle --jsx React.createElement",
     "dev": "microbundle watch  --jsx React.createElement"
