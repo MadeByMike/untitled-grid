@@ -1,6 +1,6 @@
 {
   "name": "untitled-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "source": "src/untitled-grid.js",
   "main": "dist/untitled-grid.js",
@@ -12,10 +12,12 @@
     "dev": "microbundle watch  --jsx React.createElement"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.28",
-    "react": "^16.13.1"
+    "@emotion/core": "^10.0.28"
   },
   "devDependencies": {
     "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
   }
 }
