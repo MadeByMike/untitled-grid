@@ -15,7 +15,9 @@
     "@emotion/core": "^10.0.28"
   },
   "devDependencies": {
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
     "react": "^16.13.1"
   }
 }

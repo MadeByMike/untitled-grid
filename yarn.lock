@@ -11683,6 +11683,14 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
+untitled-grid@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/untitled-grid/-/untitled-grid-0.0.0.tgz#47a427e9799caf58d821b5fcfed9487989f9fe01"
+  integrity sha512-VcUo4pAQn+fLyBNgT2Cid1cANAedsAcWd9HhY7q1eJHl1lVmyA+msBo4fI8FXnZE272A+N4Dpio4AKKUGyztkg==
+  dependencies:
+    "@emotion/core" "^10.0.28"
+    react "^16.13.1"
+
 upath@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"

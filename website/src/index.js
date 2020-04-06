@@ -11,11 +11,11 @@ SyntaxHighlighter.registerLanguage("jsx", jsxSyntax);
 const page = {
   margin: "50px auto",
   width: "85%",
-  maxWidth: 1300
+  maxWidth: 1300,
 };
 
 const section = {
-  marginBottom: 100
+  marginBottom: 100,
 };
 
 const example = {
@@ -24,13 +24,13 @@ const example = {
   backgroundColor: "tomato",
   marginBottom: 10,
   textAlign: "center",
-  fontWeight: "bold"
+  fontWeight: "bold",
 };
 
 const nestedExample = {
   ...example,
   backgroundColor: "palegoldenrod",
-  marginTop: 10
+  marginTop: 10,
 };
 
 const globalStyles = {
@@ -39,21 +39,21 @@ const globalStyles = {
     color: "#fff",
     fontFamily: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
     "@media (min-width: 800px)": {
-      fontSize: "1.2em"
+      fontSize: "1.2em",
     },
     lineHeight: "1.5",
     marginTop: 20,
-    padding: 5
+    padding: 5,
   },
   pre: { borderRadius: 20, margin: "30px 0 !important" },
   code: {
     fontSize: "1em",
     border: "solid rgba(255,255,255,0.4) 1px",
     borderRadius: 2,
-    padding: ".2em"
+    padding: ".2em",
   },
   "pre code": { fontSize: ".9em", border: "none", borderRadius: 0 },
-  a: { color: "white" }
+  a: { color: "yellow" },
 };
 
 const H2 = ({ title }) => (
@@ -70,7 +70,7 @@ ReactDOM.render(
           css={{
             width: 100,
             "@media (min-width:600px)": { width: "auto" },
-            margin: 10
+            margin: 10,
           }}
         />
         <Col>
@@ -78,7 +78,11 @@ ReactDOM.render(
             Untitled Grid
           </h1>
           <p css={{ marginLeft: 8, marginTop: 5 }}>
-            Built for React with Emotion.
+            Built for React with Emotion.{" "}
+            <a href="https://github.com/MadeByMike/untitled-grid">
+              Star it on Github
+            </a>
+            .
             <br /> Untitled grid is a standard 12 column responsive grid system
             or a versatile grid utility that can be any shape or size.
           </p>
