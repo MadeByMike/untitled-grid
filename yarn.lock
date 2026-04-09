@@ -7050,9 +7050,9 @@ lodash.sumby@^4.6.0:
   integrity sha1-fYdzfdshbaL35efNLdnEA6eIc0Y=
 
 lodash.template@^4.4.0, lodash.template@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
-  integrity sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.18.1.tgz#9968d00568070d03e358505b5a28b0cbd8fbfd5f"
+  integrity sha512-5urZrLnV/VD6zHK5KsVtZgt7H19v51mIzoS0aBNH8yp3I8tbswrEjOABOPY8m8uB7NuibubLrMX+Y0PXsU9X+w==
   dependencies:
     lodash._reinterpolate "^3.0.0"
     lodash.templatesettings "^4.0.0"
@@ -11682,6 +11682,14 @@ unset-value@^1.0.0:
   dependencies:
     has-value "^0.3.1"
     isobject "^3.0.0"
+
+untitled-grid@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/untitled-grid/-/untitled-grid-0.0.0.tgz#47a427e9799caf58d821b5fcfed9487989f9fe01"
+  integrity sha512-VcUo4pAQn+fLyBNgT2Cid1cANAedsAcWd9HhY7q1eJHl1lVmyA+msBo4fI8FXnZE272A+N4Dpio4AKKUGyztkg==
+  dependencies:
+    "@emotion/core" "^10.0.28"
+    react "^16.13.1"
 
 upath@^1.1.1:
   version "1.2.0"
